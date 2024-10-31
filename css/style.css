@@ -1,0 +1,673 @@
+@font-face {
+    font-family: nazanin;
+    src: url(fonts/SNAZANIN.TTF);
+}
+body{
+    background-color: white;
+}
+
+.header-div{
+    background-color: #ffecec;
+    overflow: hidden;
+   
+
+}
+
+.img-logo{
+    width: 150px; 
+}
+.search-div{
+    width: 200px;
+    background-color: aliceblue;
+}
+.header-search:focus{
+  border-color: gray;
+  box-shadow: none;
+}
+
+.header-search{
+    border: 1px solid gray;
+    background-color:rgb(245, 245, 245) ;
+    width: 150px;
+    height: 25px;
+    font-size: x-small;
+    border-radius:1px;
+    display: none;
+    
+}
+.search-icon{
+    font-size: 30px;
+    font-weight: lighter;
+    cursor: pointer;
+    
+}
+.user-icon{
+    font-size: 30px;
+    cursor: pointer;
+    font-weight: lighter;
+}
+.form-section{
+    width: 70%;
+    border: 1px solid gray;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    background-color: white;
+    margin: 90px auto;
+   
+   
+}
+.form-section ul{
+    padding-right: 5px;
+}
+
+.form-section ul a{
+    font-size: 15px;
+    color: black;
+}
+.form-section ul a:hover{
+    color:gray ;
+}
+.vorod-form input{
+    margin: 10px;
+    border-color: gray;
+    
+}
+
+.vorod-form input:focus{
+    box-shadow: none;
+    border: 2px solid gray;
+}
+.form-section1{
+    background-color: rgba(0, 0, 0,0.5);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 100000000000;
+    display: none;
+    
+}
+.form-close{
+    cursor: pointer;
+}
+.main-nav{
+    padding: 5PX;
+    background-color: rgb(250, 250, 250);
+    font-size: 13px;
+    overflow: hidden;
+    box-shadow: 2px 2px  rgba(0, 0, 0,0.05);
+    padding-right: 100px;
+    
+}
+.menu-icon,.menu-icon2{
+    font-weight: lighter;
+    cursor: pointer;
+}
+.dropdown{
+    position: absolute;
+    right: 2px;
+}
+.dropdown-menu{
+    background-color: rgb(250, 250, 250);
+   
+    
+
+}
+
+.menu-icon2{
+display: none;
+
+}
+.animate__slideInRight{
+    animation-duration: 0.3s;
+    
+}
+.animate__slideOutRight{
+    animation-duration: 0.3s;
+} 
+.filter{
+    width: 100px;
+    cursor: pointer;
+}
+.filter_icon{
+    font-size: 20px;
+    font-weight: lighter;
+}
+.main-nav ul li a{
+text-decoration: none;
+color: black;
+}
+.btn-pei{
+    font-size: 10px;
+}
+.btn-outline-info{
+    border-color: gray;
+    color: gray;
+}
+.btn-outline-info:hover{
+    background-color: gray;
+    border-color: gray;
+    color: rgb(245, 245, 245);
+}
+.btn-outline-info:active{
+    background-color: rgb(226, 218, 214) !important;
+    border-color: rgb(226, 218, 214) !important;
+}
+.hearts{
+    font-weight: lighter;
+    color: red;
+    cursor: pointer;
+    
+}
+.buying{
+    font-weight: lighter;
+    cursor: pointer;
+}
+.filters{
+    cursor: pointer;
+}
+.slider-art{
+    
+    border:2PX SOLID rgb(247, 236, 236);
+    border-radius: 10px !important;
+    overflow: hidden;
+}
+.badge{
+    font-size: 5px;
+}
+.hided-black{
+    background-color: rgba(0, 0, 0,0.5);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+   display: none;
+}
+.hided-menu{
+    background-color: rgb(250, 250, 250);
+    width: 60%;
+    position: absolute;
+    left: 0;
+    z-index: 1000;
+    height: 100%;
+    position: fixed;
+    right: 0;
+  
+}
+.hided-menu ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+}
+.carousel-control-prev-icon{
+    color: black !important;
+}
+
+.active>.page-link{
+    background-color: #d18d8d !important;
+    border-color: #d18d8d !important;
+
+  }
+  .page-link{
+    color: #d18d8d;
+  }
+.image1{
+    width: 100px;
+    margin-top: 100px;
+}
+.slider-section{
+    direction: ltr;
+   overflow: hidden;
+    
+}
+
+
+.squares{
+    border: 2px solid gray;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 20px 10px;
+    padding: 0;
+    cursor: pointer;
+    height: 250px;
+   
+    
+}
+.texts{
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0, 0, 0,0.7);
+    width: 100%;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    
+}
+.titles{
+    border-bottom: 2px solid gray;
+    width: 200px;
+    margin: 20px auto;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.squares img {
+    transition: all 1s;
+}
+.squares img:hover {
+transform: scale(1.2);
+transform-origin: center center;
+}
+.As{
+    text-decoration: none;
+    color: black;
+    width: 150px;
+    display: inline-block;
+    background-color: white;
+    border: 1px solid rgb(210, 210, 210);
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    height: 220px;
+}
+.As img{
+    width: 130px;
+    height: 130px;
+}
+.grays{
+    background-color: #f4f4f4 ;
+    padding: 20px 40px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+
+.price{
+    color: #d18d8d;
+}
+
+
+del{
+    color: rgb(191, 191, 191);
+}
+.pinky:hover{
+    background-color: rgba(206, 206, 206, 0.5);
+    border-radius: 5px;
+}
+.mahsolat article a{
+    display: inline-block !important;
+}
+.arrows{
+    font-weight: lighter;
+    font-size: 20px;
+}
+.titles a{
+    color: #d18d8d;
+    text-decoration: none;
+}
+.m-titles{
+    width: 100%;
+    text-align: center;
+    border: 1px solid gray;
+    background-color:  #f4f4f4;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+}
+.aboutus,.aboutus1{
+    padding: 10px;
+    border-bottom:2px solid #FFCBCB;
+    width: 200px;
+}
+.aboutus1{
+    border-color:rgb(162, 162, 162) ;
+}
+.p-khadamat{
+    list-style: circle;
+    color: #d18d8d;
+   
+}
+.about-1{
+    
+    background-image: url(4.jpg);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+
+.foter{
+    background-color:#ffecec ;
+    
+}
+.logo-footer{
+   
+    width: 200px;
+
+}
+.footer-text div img{
+    width: 20px;
+    direction: ltr;
+    padding-right: 3px;
+}
+.foter div{
+    padding: 10px;
+}
+.footer-text{
+    width: 230px;
+    margin: 0 auto;
+   
+   
+}
+.foter-images{
+    width: 80px;
+    height: 80px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.page-up{
+    width: 60px;
+    height: 60px;
+    background-color: #d6d6d6;
+    border-radius: 50%;
+    text-align: center;
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+}
+.page-up span{
+    line-height: 60px;
+    font-size: 40px;
+    font-weight: lighter;
+    
+}
+.page-chat{
+    width: 60px;
+    height: 60px;
+    background-color: #d6d6d6;
+    border-radius: 50%;
+    text-align: center;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+.page-chat span{
+    line-height: 60px;
+    font-size: 25px;
+    font-weight: lighter;
+}
+.chat{
+    width: 300px;
+    height: 400px;
+    background-color:white;
+    border: 1px solid gray;
+    border-radius: 10px;
+    overflow: hidden;
+    position: fixed;
+    right: 70px;
+    bottom: 10px;
+    z-index: 100000;
+    display: none;
+}
+.chat2{
+    width: 300px;
+    height: 700px;
+    background-color:white;
+    
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+
+}
+.chat-header{
+    width: 100%;
+    height: 50px;
+    font-size: 15px;
+    background-color: #d6d6d6;
+    line-height: 50px;
+    padding-right: 20px;
+}
+.chat-body{
+    width: 100%;
+    height: 430px;
+    background-color:white;
+    overflow: scroll;
+    
+}
+.prof{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid gray;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    top: 20px;
+    right: 20px;
+
+}
+.prof img{
+    width: 100%;
+    height: 100%;
+}
+.admin-text{
+    background-color: #d6d6d6;
+    width: 200px;
+    padding: 3px;
+    position: relative; 
+    top: 0px;
+    right: 55px;
+
+}
+.coment-text{
+    background-color: #d6d6d6;
+
+    padding: 3px;
+    position: relative; 
+    top: 0px;
+    right: 55px;
+}
+.admin-text,.coment-text p{
+    font-size: 10px;
+}
+.chat-type{
+    width: 100%;
+    height: 55px;
+    background-color:#d6d6d6 ;
+    position: absolute;
+    bottom: 0;
+}
+.chat-type2{
+    width: 100%;
+    height: 220px;
+    background-color:#d6d6d6 ;
+    position: absolute;
+    bottom: 0;
+}
+.chat-type span{
+    line-height: 30px;
+    font-weight: lighter;
+    cursor: pointer;
+}
+textarea{
+    height: 100px;
+
+}
+
+/* page2 */
+
+.pro-mahsolat{
+    margin-top: 120px;
+}
+.pro-book{
+    margin: 0 !important;
+}
+.pag-num{
+    
+    margin: 20px auto !important;
+  
+}
+
+/* page 3 */
+
+.item-pic{
+    width: 300px;
+    height: 300px;
+}
+.item-s1{
+    margin-top: 130px;
+}
+.iten-name{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.item-price{
+    color: #d18d8d;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.information{
+    font-size: 15px;
+    color: gray;
+    margin-bottom: 20px;
+
+}
+.information div{
+    padding: 5px 0;
+}
+.colors{
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+.little-color{
+    width: 50px;
+    height: 25px;
+    background-color: #d6d6d6;
+    border: 0.5px solid black;
+    cursor: pointer;
+}
+.color-panel{
+    width: 100px;
+    height: auto;
+    background-color: rgb(250, 250, 250);
+   
+    border: 0.5px solid gray;
+    padding: 10px;
+    
+    position: absolute;
+
+   
+display: none;
+}
+.color1,.color2,.color3{
+    width: 50px;
+    height: 25px;
+    
+    border: 0.5px solid black;
+    margin: 10px auto;
+    cursor: pointer;
+    
+}
+.color1{
+    background-color: black;
+    
+}
+.color2{
+    background-color: lightblue;
+    
+}
+.color3{
+    background-color: red;
+    
+}
+.item-heart{
+ font-weight: lighter;
+ font-size:35px;
+ color: red;
+ position: relative;
+ top: 10px;
+ cursor: pointer;
+}
+.item-coments{
+    width: 90%;
+    
+    border-radius: 10px;
+}
+
+
+
+
+.fav-sec-1{
+    margin-top: 120px;
+}
+.delete{
+    font-weight: lighter;
+}
+.fav-imgs{
+    width: 150px;
+}
+.sabad{
+    margin-top: 120px;
+}
+.bas-number input{
+    width: 60px;
+}
+.bas-color div{
+    position: relative;
+    top: 7px;
+}
+.eq-sab{
+    width: 90%;
+    background-color: #f4f4f4 ;
+    padding: 25px;
+    border-radius: 10px;
+    margin: 20px auto;
+}
+.piink{
+    color: #d18d8d;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:550px){
+    .form-labels{
+        font-size: 10px;
+        
+    }
+   
+    .header-search{
+        position: absolute;
+        top: 30px;
+        left: 60px;
+    }
+   .chat{
+    bottom: 85px;
+    right: 10px;
+   }
+   .item-border{
+    border-left: none !important;
+    border-bottom: 0.5px solid gray !important;
+    margin-bottom: 30px;
+   }
+}
+
